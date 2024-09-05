@@ -1,5 +1,6 @@
 import { Outlet, useNavigation } from 'react-router-dom';
 import DynamicSpinner from '../../components/Spinner/DynamicSpinner.jsx';
+import WelcomeModal from '../../components/WelcomeModal/WelcomeModal.jsx';
 import AppProviders from './AppProviders.jsx';
 import AppHeader from './AppHeader.jsx';
 
@@ -12,6 +13,7 @@ function App() {
         <Outlet/>
       </main>
       <DynamicSpinner forceShow={location.state === 'loading'}/>
+      <WelcomeModal/>
     </AppProviders>
   )
 }

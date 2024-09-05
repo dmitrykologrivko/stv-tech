@@ -24,8 +24,8 @@ function CommunitiesPage() {
       {communities && communities.length > 0
         ? (
           <>
-            {communities.map((item) => (
-              <>
+            {communities.map((item, index) => (
+              <div key={index}>
                 <h1 className='text-xl mb-4'>{item.name}</h1>
                 <ul className='mb-4'>
                   {item.communities.map((item, index) => (
@@ -38,7 +38,7 @@ function CommunitiesPage() {
                     </li>
                   ))}
                 </ul>
-              </>
+              </div>
             ))}
           </>
           // <>
