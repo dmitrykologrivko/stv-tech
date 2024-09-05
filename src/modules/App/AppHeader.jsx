@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import Header from '../../components/Header/Header.jsx';
-import Logo from '../../components/Header/Logo.jsx';
+import Logo from '../../components/Logo/Logo.jsx';
 import HeaderNavItem from '../../components/Header/HeaderNavItem.jsx';
 
 function AppLogo() {

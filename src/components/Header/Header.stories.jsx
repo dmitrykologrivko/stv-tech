@@ -1,5 +1,5 @@
 import Header from './Header.jsx';
-import Logo from './Logo.jsx';
+import Logo from '../Logo/Logo.jsx';
 import HeaderNavItem from './HeaderNavItem.jsx';
 
 export default {
@@ -9,7 +9,7 @@ export default {
 
 export const Default = {
   args: {
-    logo: <Logo />,
+    logo: <Logo/>,
     navItems: [
       'Item 1',
       'Item 2',

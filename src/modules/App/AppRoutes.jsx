@@ -2,23 +2,13 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import AppBoundary from './AppBoundary.jsx';
 import NotFoundPage from './NotFoundPage.jsx';
+import CompaniesPage from '../Companies/CompaniesPage.jsx';
 import CommunitiesPage from '../Communities/CommunitiesPage.jsx';
+import StartupsPage from '../Startups/StartupsPage.jsx';
+import CoworkingsPage from '../Coworkings/CoworkingsPage.jsx';
+import { DataManager } from '../../data/DataManager.js';
 
-async function timeout() {
-  return new Promise(resolve => {
-    setTimeout(() => resolve(), 1000);
-  });
-}
-
-const loader = async () => {
-  try {
-    await timeout();
-  } catch (e) {
-    console.log(e);
-  }
-
-  return [];
-}
+const dataManager = new DataManager();
 
 export const router = createBrowserRouter([
   {
@@ -31,21 +21,21 @@ export const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <div>IT-Map</div>,
-            loader
+            element: <CompaniesPage/>
           },
           {
             path: 'communities',
             element: <CommunitiesPage/>,
-            loader
+            loader: () => dataManager.getCommunities()
           },
-          // {
-          //   path: 'startups',
-          //   element: <div>Startups</div>
-          // },
+          {
+            path: 'startups',
+            element: <StartupsPage/>
+          },
           {
             path: 'coworkings',
-            element: <div>Coworkings</div>
+            element: <CoworkingsPage/>,
+            loader: () => dataManager.getCoworkings()
           },
           {
             path: '*',

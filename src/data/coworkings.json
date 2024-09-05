@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Кому Какое Дело",
+    "address": "Ленина 384, 1 этаж",
+    "description": "Коворкинг, лекторий, кофейня Ставрополя",
+    "image": "/images/coworkings/stdelo.jpg",
+    "link": "https://vk.com/stdelo"
+  },
+  {
+    "id": 2,
+    "name": "Инкубатор",
+    "address": "Доваторцев 52е, 1, 2 этаж",
+    "description": "Новое рабочее пространство общей площадью 600 кв.м.",
+    "image": "/images/coworkings/incubator26.png",
+    "link": "https://incubator26.ru/"
+  },
+  {
+    "id": 3,
+    "name": "ЛАМПА & арт-офисы",
+    "address": "Краснофлотская 113, 1 этаж",
+    "description": "Лофт для ваших Мероприятий. Красивый и уютный офис «под ключ». Уютные рабочие места на день/месяц/год",
+    "image": "/images/coworkings/lampacoworking.png",
+    "link": "https://lampacoworkingstavropol.2gis.biz/"
+  },
+  {
+    "id": 4,
+    "name": "My loft",
+    "address": "Лермонтова 333",
+    "description": "Светлое, уютное пространство в самом центре города! Площадь помещения — 150 кв. м, витражные окна, отдельный вход, парковка.",
+    "image": "/images/coworkings/myloft.png",
+    "link": "https://go.2gis.com/zo5ba6"
+  },
+  {
+    "id": 5,
+    "name": "Точка кипения Hi-Tech",
+    "address": "Проспект Кулакова 18",
+    "description": "Доступ к коворкингу, оснащенному всем необходимым оборудованием для работы и проведения мероприятий.",
+    "image": "/images/coworkings/hi-tech.jpg",
+    "link": "https://leader-id.ru/organizations/1854147"
+  }
+]

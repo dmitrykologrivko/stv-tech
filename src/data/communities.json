@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "IT-сообщества",
+    "communities": [
+      {
+        "id": 1,
+        "name": "dev_stav",
+        "description": "IT-сообщество Ставрополя",
+        "link": "tg://resolve/?domain=dev_stav",
+        "link_description": "@dev_stav",
+        "link_type": "telegram"
+      },
+      {
+        "id": 2,
+        "name": "dev_stav | Events",
+        "description": "Оффлайн встречи IT-сообщества Ставрополя",
+        "link": "https://t.me/+BiOSRs_V1qVlZGRi",
+        "link_description": "@dev_stav_events",
+        "link_type": "telegram"
+      },
+      {
+        "id": 3,
+        "name": "STV Meetup",
+        "description": "Оффлайн IT-мероприятия в Ставрополе",
+        "link": "tg://resolve/?domain=stv_meetup",
+        "link_description": "@stv_meetup",
+        "link_type": "telegram"
+      },
+      {
+        "id": 4,
+        "name": "Разработчики / программисты [ СТАВРОПОЛЬ ]",
+        "description": "Сообщество разработчиков на PHP, .NET, Java, C/C++, JavaScript, HTML",
+        "link": "https://vk.com/php26",
+        "link_description": "@php26",
+        "link_type": "vk"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Тематические сообщества",
+    "communities": [
+      {
+        "id": 5,
+        "name": "English Speaking Club",
+        "description": "Разговорный клуб в Ставрополе",
+        "link": "https://t.me/+41oQXwPv_YozMDky",
+        "link_description": "@english_speaking_club_stavropol",
+        "link_type": "telegram"
+      },
+      {
+        "id": 6,
+        "name": "Dundee Club - языковая студия",
+        "description": "Языковая студия в Ставрополе",
+        "link": "tg://resolve/?domain=dundee_club",
+        "link_description": "@dundee_club",
+        "link_type": "telegram"
+      }
+    ]
+  }
+]
