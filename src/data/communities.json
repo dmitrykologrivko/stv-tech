@@ -43,6 +43,14 @@
     "communities": [
       {
         "id": 5,
+        "name": "Активности Ставрополь",
+        "description": "Активности Ставрополь",
+        "link": "https://t.me/+bCRRS7x4yK44NWQy",
+        "link_description": "@activities_stavropol",
+        "link_type": "telegram"
+      },
+      {
+        "id": 6,
         "name": "English Speaking Club",
         "description": "Разговорный клуб в Ставрополе",
         "link": "https://t.me/+41oQXwPv_YozMDky",
@@ -50,7 +58,7 @@
         "link_type": "telegram"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Dundee Club - языковая студия",
         "description": "Языковая студия в Ставрополе",
         "link": "tg://resolve/?domain=dundee_club",
