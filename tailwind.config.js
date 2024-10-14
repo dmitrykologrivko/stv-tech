@@ -1,3 +1,6 @@
+/**
+ * Generated using https://uicolors.app/create
+ */
 const globalColors = {
   brand: {
     '50': '#fefee8',

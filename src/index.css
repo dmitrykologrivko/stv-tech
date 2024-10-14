@@ -11,4 +11,14 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: #FAFCFF;
   }
+
+  input[type="checkbox"] {
+    @apply appearance-none w-4 h-4 border border-black rounded relative cursor-pointer;
+
+    @apply checked:bg-brand-primary checked:border-brand-500;
+
+    @apply checked:before:content-[''] checked:before:absolute checked:before:w-1.5 checked:before:h-2.5;
+    @apply checked:before:border-t-0 checked:before:border-r-2 checked:before:border-b-2 checked:before:border-l-0;
+    @apply checked:before:border-white checked:before:top-px checked:before:left-1 checked:before:rotate-45;
+  }
 }

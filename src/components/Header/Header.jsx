@@ -11,7 +11,7 @@ function Header({ logo, navItems, telegramUser }) {
   };
 
   return (
-    <header className='flex items-center justify-between p-4 bg-brand-primary lg:justify-normal'>
+    <header className='flex items-center justify-between p-2 bg-brand-primary lg:justify-normal lg:p-4'>
       {logo}
 
       <nav className='flex-grow ml-2 mr-2'>

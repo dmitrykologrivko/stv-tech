@@ -3,7 +3,7 @@ import Button from '../Button/Button.jsx';
 import useLocalStorage from '../../hooks/useLocalStorage.js';
 import smile from '../../assets/smile.svg';
 
-function WelcomeModal() {
+function WelcomeModal({ show = false }) {
   const [isFirstSeen, setFirstSeen] = useLocalStorage('is_first_seen', true);
 
   function closeModal() {
@@ -11,7 +11,7 @@ function WelcomeModal() {
   }
 
   return (
-    <Modal show={isFirstSeen}
+    <Modal show={show || isFirstSeen}
            onClose={closeModal}
            className='max-w-sm bg-white rounded p-4 mr-4 ml-4'
            header={(
@@ -30,9 +30,7 @@ function WelcomeModal() {
            )}
            footer={(
              <div className='flex items-center justify-center'>
-               <div className='w-64'>
-                 <Button onClick={closeModal}>Закрыть</Button>
-               </div>
+               <Button widthClass='w-64' onClick={closeModal}>Закрыть</Button>
              </div>
            )} />
   );

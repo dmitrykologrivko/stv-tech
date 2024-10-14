@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "div.",
+    "address": "45 Параллель 6",
+    "description": "Digital production в Ставрополе",
+    "image": "",
+    "link": "https://div.pro/",
+    "coordinates": [
+      41.919918,
+      44.998567
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 2,
+    "name": "DapSite",
+    "address": "Добролюбова 53/4, офис 28",
+    "description": "Разрабатываем сайты по всей России",
+    "image": "",
+    "link": "https://dapsite.ru/",
+    "coordinates": [
+      41.990713,
+      45.037137
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  }
+]

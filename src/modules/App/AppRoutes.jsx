@@ -3,6 +3,7 @@ import App from './App.jsx';
 import AppBoundary from './AppBoundary.jsx';
 import NotFoundPage from './NotFoundPage.jsx';
 import CompaniesPage from '../Companies/CompaniesPage.jsx';
+import { loadCompanies } from '../Companies/loaders.js';
 import CommunitiesPage from '../Communities/CommunitiesPage.jsx';
 import StartupsPage from '../Startups/StartupsPage.jsx';
 import CoworkingsPage from '../Coworkings/CoworkingsPage.jsx';
@@ -21,7 +22,8 @@ export const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <CompaniesPage/>
+            element: <CompaniesPage/>,
+            loader: loadCompanies(dataManager)
           },
           {
             path: 'communities',

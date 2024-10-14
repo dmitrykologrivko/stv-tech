@@ -5,9 +5,9 @@ import telegramLogo from '../../assets/telegram-black.svg';
 import vkLogo from '../../assets/vk-black.svg';
 
 function CommunitiesPage() {
-  const communities = useLoaderData();
+  useTitle('Сообщества Ставрополя');
 
-  useTitle('Сообщества');
+  const communities = useLoaderData();
 
   function getSocialNetworkIconByType(type) {
     if (type === 'telegram') {

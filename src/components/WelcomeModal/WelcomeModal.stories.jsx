@@ -1,8 +1,8 @@
 import WelcomeModal from './WelcomeModal.jsx';
 
 export default {
-    title: 'Components/Modals/WelcomeModal',
-    component: WelcomeModal,
+  title: 'Components/Modals/WelcomeModal',
+  component: WelcomeModal,
 };
 
-export const Default = () => <WelcomeModal/>;
+export const Default = () => <WelcomeModal show={true}/>;
