@@ -8,9 +8,7 @@ function useTitle(title) {
     return () => {
       document.title = originalTitle
     };
-    // Empty dependency array ensures this runs only once on mount
-    // eslint-disable-next-line
-  }, []);
+  }, [title]);
 }
 
 export default useTitle;

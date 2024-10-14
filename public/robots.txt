@@ -1,0 +1,6 @@
+User-agent: *
+User-agent: Googlebot
+User-agent: YandexBot
+Allow: /
+
+Sitemap: https://stv-tech.ru/sitemap.xml
