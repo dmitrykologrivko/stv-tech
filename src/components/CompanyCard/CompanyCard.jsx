@@ -8,7 +8,7 @@ function CompanyCard(props) {
         <div className='flex-grow'>
           <div className='flex items-center'>
             <span className='font-bold'>{props.name}</span>
-            {props.flagship ? <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/> : <></>}
+            {props.flagship && <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/>}
           </div>
           <div>{props.address}</div>
           <div>{props.category}</div>

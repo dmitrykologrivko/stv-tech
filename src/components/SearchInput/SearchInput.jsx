@@ -25,18 +25,15 @@ function SearchInput({ value = '', onChange, placeholder }) {
                setInputValue(e.target.value);
                debouncedChange();
              }}/>
-      {inputValue?.length > 0
-        ? (
-          <div className='absolute top-[15%] right-4 text-xl cursor-pointer'
-               onClick={() => {
-                 setInputValue('');
-                 onChange('');
-               }}>
-            &times;
-          </div>
-        )
-        : <></>
-      }
+      {inputValue?.length > 0 && (
+        <div className='absolute top-[15%] right-4 text-xl cursor-pointer'
+             onClick={() => {
+               setInputValue('');
+               onChange('');
+             }}>
+          &times;
+        </div>
+      )}
     </div>
   );
 }

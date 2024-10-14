@@ -84,18 +84,15 @@ function CompaniesPage() {
         )
       }
 
-      {showFilters
-        ? (
-          <CompaniesFilters show={showFilters}
-                            initialFiltersState={searchParams}
-                            onCloseModal={onCloseFilters}
-                            onApplyFilters={newFiltersState => {
-                              setSearchParams(newFiltersState);
-                              setShowFilters(false);
-                            }}/>
-        )
-        : <></>
-      }
+      {showFilters && (
+        <CompaniesFilters show={showFilters}
+                          initialFiltersState={searchParams}
+                          onCloseModal={onCloseFilters}
+                          onApplyFilters={newFiltersState => {
+                            setSearchParams(newFiltersState);
+                            setShowFilters(false);
+                          }}/>
+      )}
     </div>
   );
 }

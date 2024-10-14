@@ -15,7 +15,7 @@ function CompanyMapMarker({ feature, activePopupId, onClick, onCloseClick }) {
         <div className='flex-grow'>
           <div className='flex items-center'>
             <span className='font-bold'>{feature.company?.name}</span>
-            {feature.company?.flagship ? <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/> : <></>}
+            {feature.company?.flagship && <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/>}
           </div>
           <div>{feature.company?.address}</div>
           <div>{feature.company?.category_title}</div>
