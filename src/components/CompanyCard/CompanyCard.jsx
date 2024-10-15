@@ -1,4 +1,5 @@
 import Card from '../Card/Card.jsx';
+import Tooltip from '../Tooltip/Tooltip.jsx';
 import starCircle from '../../assets/star-circle.svg';
 
 function CompanyCard(props) {
@@ -8,7 +9,11 @@ function CompanyCard(props) {
         <div className='flex-grow'>
           <div className='flex items-center'>
             <span className='font-bold'>{props.name}</span>
-            {props.flagship && <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/>}
+            {props.flagship && (
+              <Tooltip text='Крупная IT-компания в городе' width='220px' position='right'>
+                <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/>
+              </Tooltip>
+            )}
           </div>
           <div>{props.address}</div>
           <div>{props.category}</div>
