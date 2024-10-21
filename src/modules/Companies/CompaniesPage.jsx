@@ -60,29 +60,23 @@ function CompaniesPage() {
         <SearchInput value={searchParams.query}
                      onChange={onSearchInputChange}
                      placeholder='Введите название компании'/>
-        {showMap
-          ? (
-            <IconButton icon={listIcon} onClick={() => setShowMap(false)}/>
-          )
-          : (
-            <IconButton icon={mapIcon} onClick={() => setShowMap(true)}/>
-          )
-        }
+
+        <IconButton icon={showMap ? listIcon : mapIcon}
+                    onClick={() => setShowMap(prevState => !prevState)} />
         <IconButton icon={filterIcon} onClick={onFilterButtonClick}/>
       </div>
 
-      {showMap
-        ? (
-          <div ref={mapRef}
-               className={`'w-full rounded-lg overflow-hidden shadow'`}
-               style={{ height: availableHeight }}>
-            <CompaniesMap cityLocation={STAVROPOL_CENTER} companies={filteredCompanies}/>
-          </div>
-        )
-        : (
-          <CompaniesList companies={filteredCompanies} onResetFilters={onResetFilters}/>
-        )
-      }
+      {showMap && (
+        <div ref={mapRef}
+             className={`'w-full rounded-lg overflow-hidden shadow'`}
+             style={{ height: availableHeight }}>
+          <CompaniesMap cityLocation={STAVROPOL_CENTER} companies={filteredCompanies}/>
+        </div>
+      )}
+
+      {!showMap && (
+        <CompaniesList companies={filteredCompanies} onResetFilters={onResetFilters}/>
+      )}
 
       {showFilters && (
         <CompaniesFilters show={showFilters}

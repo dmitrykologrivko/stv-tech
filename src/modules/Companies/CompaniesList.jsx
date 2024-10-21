@@ -9,7 +9,7 @@ const CompaniesList = memo(function CompaniesList({ companies, onResetFilters })
         ? (
           <div className='flex flex-wrap -m-4'>
             {companies.map((item, index) => (
-              <div key={index} className='w-full p-2 sm:w-1/1 md:w-1/2 xl:w-1/3 2xl:w-1/4'>
+              <div key={index} className='w-full p-2 sm:w-1/1 md:w-1/2'>
                 <a href={item.company.link} target='_blank'>
                   <CompanyCard name={item.company.name}
                                address={item.company.address}
