@@ -26,5 +26,691 @@
     ],
     "flagship": false,
     "category": "web_studio"
+  },
+  {
+    "id": 3,
+    "name": "НЕОЛАНТ Сервис",
+    "address": "Дзержинского 114, оф. 605, 607",
+    "description": "Цифровые решения для промышленности",
+    "image": "",
+    "link": "https://www.neolant-srv.ru/",
+    "coordinates": [
+      41.97056496552091,
+      45.044054515872766
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 4,
+    "name": "Ctrlweb",
+    "address": "Дзержинского 160, 425 офис",
+    "description": "Разрабатываем еком системы нового поколения",
+    "image": "",
+    "link": "https://ctrlweb.ru/",
+    "coordinates": [
+      41.95501347759584,
+      45.04267570407158
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 5,
+    "name": "Prana IT",
+    "address": "50 лет ВЛКСМ 113",
+    "description": "Продуманные дизайн решения для бизнеса, разработка сайтов",
+    "image": "",
+    "link": "https://pranait.ru/",
+    "coordinates": [
+      41.91631812435735,
+      45.00020426930966
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 6,
+    "name": "ЧатАпп",
+    "address": "Доваторцев 63Б, 2 офис",
+    "description": "Агрегатор мессенджеров в едином окне",
+    "image": "",
+    "link": "https://chatapp.online/ru/",
+    "coordinates": [
+      41.92635790095192,
+      45.00376039913892
+    ],
+    "flagship": true,
+    "category": "product_company"
+  },
+  {
+    "id": 7,
+    "name": "Профител",
+    "address": "Пирогова 44, офис 21",
+    "description": "Разработка сайтов",
+    "image": "",
+    "link": "https://profitel.ru/",
+    "coordinates": [
+      41.91340792855111,
+      45.00795662732865
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 8,
+    "name": "Медицина ИТ",
+    "address": "Доваторцев 49В",
+    "description": "ПО для для лечебно - профилактических учреждений",
+    "image": "",
+    "link": "https://www.medicine-it.ru/",
+    "coordinates": [
+      41.92878750429911,
+      45.010742817066614
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 9,
+    "name": "Алгоритм-С",
+    "address": "Пирогова 15/1",
+    "description": "Автоматизация аптечной торговли",
+    "image": "",
+    "link": "https://algoritm-s.ru/",
+    "coordinates": [
+      41.91393546627036,
+      45.013823684739364
+    ],
+    "flagship": false,
+    "category": "system_integrator"
+  },
+  {
+    "id": 10,
+    "name": "КрафтКод",
+    "address": "Доваторцев 44Ж, офис 62",
+    "description": "Внедрение и сопровождение ПО на платформе 1С:Предприятие",
+    "image": "",
+    "link": "https://craft-code.ru/",
+    "coordinates": [
+      41.932803538028686,
+      45.017879537809684
+    ],
+    "flagship": false,
+    "category": "service_company"
+  },
+  {
+    "id": 11,
+    "name": "Миртек",
+    "address": "Доваторцев 33А",
+    "description": "Решения для интеллектуального учёта потребления энергоресурсов",
+    "image": "",
+    "link": "https://mirtekgroup.com/",
+    "coordinates": [
+      41.932183287119805,
+      45.01917412342564
+    ],
+    "flagship": true,
+    "category": "product_company"
+  },
+  {
+    "id": 12,
+    "name": "Группа ЭНЭЛТ",
+    "address": "3-я Промышленная д. 3е, оф. 27",
+    "description": "Комплексные решения в области электропитания",
+    "image": "",
+    "link": "https://enelt.com/",
+    "coordinates": [
+      41.91335044907371,
+      45.057924585194684
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 13,
+    "name": "ММ7",
+    "address": "Кулакова 10Д",
+    "description": "1С:Франчайзи",
+    "image": "",
+    "link": "https://www.mm7.ru/",
+    "coordinates": [
+      41.91379768650814,
+      45.0523249270982
+    ],
+    "flagship": false,
+    "category": "service_company"
+  },
+  {
+    "id": 14,
+    "name": "БЕСТСОФТ",
+    "address": "45 Параллель 38B, 151 офис",
+    "description": "1С:Франчайзи",
+    "image": "",
+    "link": "https://xn--90ai1alafcp.xn--p1ai/",
+    "coordinates": [
+      41.91150878867718,
+      44.999580839653156
+    ],
+    "flagship": false,
+    "category": "service_company"
+  },
+  {
+    "id": 15,
+    "name": "Студия Nelset",
+    "address": "Рогожникова, д.13",
+    "description": "Разработка веб-сайтов, программного обеспечения, приложений и видеоигр для платформ IOS, Android, PC и Nintendo Switch",
+    "image": "",
+    "link": "https://nelset.com/",
+    "coordinates": [
+      41.900991355819635,
+      45.011332606477936
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 16,
+    "name": "TitleWeb",
+    "address": "Кулакова 12в, 8 этаж",
+    "description": "Создание и продвижение сайтов, арбитраж трафика, проекты в сфере финансовых и юридических услуг",
+    "image": "",
+    "link": "https://titleweb.ru/",
+    "coordinates": [
+      41.915857848841846,
+      45.0542479222933
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 17,
+    "name": "Friends digital",
+    "address": "Дзержинского 158, офис 1001",
+    "description": "Digital-агентство полного цикла для застройщиков",
+    "image": "",
+    "link": "https://friendsdigital.ru/",
+    "coordinates": [
+      41.95564050859827,
+      45.04208539369027
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 18,
+    "name": "Стилсофт",
+    "address": "Васильковая 29",
+    "description": "Российский разработчик и производитель комплексных систем безопасности",
+    "image": "",
+    "link": "https://stilsoft.ru/",
+    "coordinates": [
+      41.93159396197121,
+      44.988575840358735
+    ],
+    "flagship": true,
+    "category": "product_company"
+  },
+  {
+    "id": 19,
+    "name": "Другойкод",
+    "address": "Мира 319",
+    "description": "Разработка программного обеспечения и создании уникальных IT-решений",
+    "image": "",
+    "link": "https://othercode.ru/ru/",
+    "coordinates": [
+      41.96863467790987,
+      45.0377962683629
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 20,
+    "name": "IBS Dunice",
+    "address": "Маршала Жукова 8, офис 405",
+    "description": "Разработка веб-сайтов и мобильных приложений",
+    "image": "",
+    "link": "https://www.dunice.net/ru",
+    "coordinates": [
+      41.96946538095094,
+      45.04541291458465
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 21,
+    "name": "СофИТ",
+    "address": "50 лет ВЛКСМ 35В",
+    "description": "Разработчик и производитель специальных технических средств фотовидеофиксации нарушений Правил дорожного движения",
+    "image": "",
+    "link": "https://sofitlabs.ru/",
+    "coordinates": [
+      41.92118740674582,
+      45.01133746782556
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 22,
+    "name": "WILIX",
+    "address": "Розы Люксембург 49А",
+    "description": "Разработка сложных интерактивных и высоконагруженных систем",
+    "image": "",
+    "link": "https://wilix.ru/",
+    "coordinates": [
+      41.98217027116393,
+      45.04041450919359
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 23,
+    "name": "Автотрекер",
+    "address": "Бруснева 4/3, этаж 1",
+    "description": "Разработка и внедрение программных и аппаратных решений",
+    "image": "",
+    "link": "https://autotracker.group/",
+    "coordinates": [
+      41.92689486441802,
+      45.06409391484798
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 24,
+    "name": "Роутим",
+    "address": "Доваторцев 11а",
+    "description": "Промышленныe ERP-системы, Создание веб-сервисов, Разработка кроссплатформенных мобильных приложений",
+    "image": "",
+    "link": "https://routeam.ru/",
+    "coordinates": [
+      41.934643728836065,
+      45.02541893264566
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 25,
+    "name": "Айти Новация",
+    "address": "Ленина 415е, кабинет 404, 405, 406",
+    "description": "Информационная безопасность",
+    "image": "",
+    "link": "https://itnovation.pro/",
+    "coordinates": [
+      41.92146904232786,
+      45.03865849759158
+    ],
+    "flagship": true,
+    "category": "service_company"
+  },
+  {
+    "id": 26,
+    "name": "AlfaiTech",
+    "address": "Кулакова 15Б",
+    "description": "Производство и обслуживание ИТ-оборудования",
+    "image": "",
+    "link": "https://alfaitech.ru/",
+    "coordinates": [
+      41.914450860118855,
+      45.05036945288158
+    ],
+    "flagship": true,
+    "category": "service_company"
+  },
+  {
+    "id": 27,
+    "name": "26link.ru",
+    "address": "Пушкина 73",
+    "description": "Веб-решения для бизнеса",
+    "image": "",
+    "link": "https://26link.ru/",
+    "coordinates": [
+      41.96512658895486,
+      45.02798327575806
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 28,
+    "name": "Интернет технологии",
+    "address": "Ленина 394, офис 27, 5 этаж",
+    "description": "Разработка и продвижение сайтов",
+    "image": "",
+    "link": "https://www.it26.ru/",
+    "coordinates": [
+      41.940924991401644,
+      45.03635925759704
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 29,
+    "name": "Онит",
+    "address": "Ленина 359, помещ. 24",
+    "description": "Информационные технологии в нефтегазовой отрасли",
+    "image": "",
+    "link": "https://www.it-onit.ru/InformationSystems/IS_main.aspx",
+    "coordinates": [
+      41.94318813194645,
+      45.03745375362104
+    ],
+    "flagship": false,
+    "category": "system_integrator"
+  },
+  {
+    "id": 30,
+    "name": "Синапс-Софт",
+    "address": "Маршала Жукова 7, 29 офис",
+    "description": "Разработка сайтов, ИТ аутсорсинг, Внедрение Битрикс24",
+    "image": "",
+    "link": "http://www.synapsoft.ru/",
+    "coordinates": [
+      41.96912006564135,
+      45.0418842461692
+    ],
+    "flagship": false,
+    "category": "service_company"
+  },
+  {
+    "id": 31,
+    "name": "Инфоком-С",
+    "address": "Суворова 7",
+    "description": "Разработка и внедрение информационных систем",
+    "image": "",
+    "link": "https://infocom-s.ru/",
+    "coordinates": [
+      41.97515519444271,
+      45.04912537051169
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 32,
+    "name": "Navicon",
+    "address": "50 лет ВЛКСМ 109",
+    "description": "Один из лидеров российского рынка корпоративного ПО в области Extended ERP, Customer Excellence и Data Insights",
+    "image": "",
+    "link": "https://navicongroup.ru/",
+    "coordinates": [
+      41.91918718650816,
+      44.99947991945248
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 33,
+    "name": "SkyLive",
+    "address": "Пирогова 15/1, офис 230",
+    "description": "Создание сайтов в Ставрополе и продвижение сайта в поисковиках",
+    "image": "",
+    "link": "https://www.skylive.ru/",
+    "coordinates": [
+      41.91402800248138,
+      45.01383700249682
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 34,
+    "name": "РуМедиа Групп",
+    "address": "Ленина 484В, офис 152",
+    "description": "Разработка / продвижение сайтов",
+    "image": "",
+    "link": "https://www.rumedia-group.ru/",
+    "coordinates": [
+      41.904349868717176,
+      45.03858230979564
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 35,
+    "name": "Креативные Бизнес Системы",
+    "address": "Кулакова 16B",
+    "description": "Создание и продвижение сайтов",
+    "image": "",
+    "link": "https://cbsystems26.ru/",
+    "coordinates": [
+      41.91784159325408,
+      45.05793982557751
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 36,
+    "name": "Малевич",
+    "address": "Буйнакского 4, офис 11",
+    "description": "Создание сайтов в Ставрополе",
+    "image": "",
+    "link": "https://malevi.ru/",
+    "coordinates": [
+      41.93386300429916,
+      45.06604573921718
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 37,
+    "name": "Wj3",
+    "address": "Ленина 384",
+    "description": "Создание сайтов в Ставрополе",
+    "image": "",
+    "link": "https://wj3.ru/",
+    "coordinates": [
+      41.94283034903904,
+      45.03670281057358
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 38,
+    "name": "yestetica",
+    "address": "Ломоносова 23, 2 этаж",
+    "description": "Разработка сайтов, дизайн, брендинг, SEO-продвижение",
+    "image": "",
+    "link": "https://yestetica.com/",
+    "coordinates": [
+      41.95688001959661,
+      45.03891870091829
+    ],
+    "flagship": true,
+    "category": "web_studio"
+  },
+  {
+    "id": 39,
+    "name": "Point.Up",
+    "address": "Карла Маркса 47-49, офис 51, 5 этаж",
+    "description": "Разработка сайтов, дизайн, комплексный маркетинг",
+    "image": "",
+    "link": "https://point-up.ru/",
+    "coordinates": [
+      41.98597683250614,
+      45.05050458424633
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 40,
+    "name": "Web Elit",
+    "address": "Достоевского 52а, офис 10, цокольный этаж",
+    "description": "Профессиональное создание веб-сайтов, поддержка и развитие интернет-проектов",
+    "image": "",
+    "link": "https://web-elitit.ru/",
+    "coordinates": [
+      42.01116216501234,
+      45.03612546743372
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 41,
+    "name": "Юнитикс",
+    "address": "Доваторцев 61, офис 525, 5 этаж",
+    "description": "Разработка сайтов, ИТ аутсорсинг, Разработка мобильных приложений",
+    "image": "",
+    "link": "https://unitx.ru/",
+    "coordinates": [
+      41.92592677116394,
+      45.005133606672196
+    ],
+    "flagship": false,
+    "category": "system_integrator"
+  },
+  {
+    "id": 42,
+    "name": "Фабрика приложений",
+    "address": "Черняховского 2, 1 этаж",
+    "description": "Компания по разработке мобильных приложений",
+    "image": "",
+    "link": "https://appsfactory.ru/",
+    "coordinates": [
+      41.975132622699505,
+      45.029329675716
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 43,
+    "name": "Coda",
+    "address": "Маршала Жукова 5",
+    "description": "Программирование и интеграция интернет-магазинов, веб-сервисов и порталов на Битрикс",
+    "image": "",
+    "link": "https://formulacoda.ru/",
+    "coordinates": [
+      41.96856977116388,
+      45.045039271583555
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 44,
+    "name": "SmartyCODE",
+    "address": "Пирогова 42/1",
+    "description": "Разработка сайтов, Разработка мобильных приложений",
+    "image": "",
+    "link": "https://smartycode.ru/",
+    "coordinates": [
+      41.91360642394255,
+      45.008323948090464
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 45,
+    "name": "РосМедиа",
+    "address": "50 лет ВЛКСМ 16И, 2 этаж",
+    "description": "Разработка и продвижение сайтов",
+    "image": "",
+    "link": "https://rosmediy.ru/",
+    "coordinates": [
+      41.924499224536895,
+      45.013889269521556
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 46,
+    "name": "АйтиСтав",
+    "address": "",
+    "description": "Разработка различного уровня сложности сайтов, интеграции и автоматизации",
+    "image": "",
+    "link": "https://itstav.ru/",
+    "coordinates": [
+      41.92829213128279,
+      45.00957149065627
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 47,
+    "name": "LIFTvTOP",
+    "address": "Мира 330А",
+    "description": "Создание вашего сайта с SEO продвижением и маркетинговым сопровождением",
+    "image": "",
+    "link": "https://liftvtop.ru/",
+    "coordinates": [
+      41.954552313491725,
+      45.03566153200251
+    ],
+    "flagship": false,
+    "category": "web_studio"
+  },
+  {
+    "id": 48,
+    "name": "ZaBota",
+    "address": "Доваторцев 30б, помещ. 289",
+    "description": "Разработка ботов для бизнеса",
+    "image": "",
+    "link": "https://www.za-bota.com/",
+    "coordinates": [
+      41.93727358035657,
+      45.02812118338656
+    ],
+    "flagship": true,
+    "category": "system_integrator"
+  },
+  {
+    "id": 49,
+    "name": "Имбирь Софт",
+    "address": "Мира 330А, офис 501",
+    "description": "Мобильное приложение, сайт и CRM для доставки еды",
+    "image": "",
+    "link": "https://imbir-soft.ru/",
+    "coordinates": [
+      41.9545654997791,
+      45.03564744982764
+    ],
+    "flagship": false,
+    "category": "product_company"
+  },
+  {
+    "id": 50,
+    "name": "Проинтегра",
+    "address": "Михаила Морозова 22, офис 207",
+    "description": "Инновационные подходы и решения в области информационной безопасности",
+    "image": "",
+    "link": "https://prointegra.ru/",
+    "coordinates": [
+      41.95743613558193,
+      45.040540050777594
+    ],
+    "flagship": false,
+    "category": "service_company"
+  },
+  {
+    "id": 51,
+    "name": "GetSite",
+    "address": "Рогожникова, 7",
+    "description": "Создание сайтов в Ставрополе",
+    "image": "",
+    "link": "https://getsite.dev/",
+    "coordinates": [
+      41.90321319213476,
+      45.011703029365776
+    ],
+    "flagship": false,
+    "category": "web_studio"
   }
 ]
