@@ -1,8 +1,41 @@
-# React + Vite
+# IT-Сообщество Ставрополя
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Добро пожаловать в IT-сообщество Ставрополя. Узнайте о местных IT компаниях, стартапах, коворкингах и сообществе.
 
-Currently, two official plugins are available:
+## Disclaimer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Этот сайт создан исключительно в <b>информационных целях</b> и содержит данные из <b>открытых источников</b>.
+Мы не можем гарантировать точность или актуальность предоставленной информации.
+Сайт не преследует коммерческих целей и предназначен для айти-специалистов — как местных, так и тех,
+кто планирует переезд в наш город.
+
+##  Demo
+
+[Web demo](https://stv-tech.ru/)
+
+<img src="./docs/arts/app_1.png" alt="App 1" />
+
+## Setting Up
+
+### Install
+
+* Node.js (v20.14.0 or higher)
+* NPM (v10.7.0 or higher)
+
+### Then locally
+
+```
+$ npm install
+$ npm run dev
+```
+
+### Then on production
+
+```
+$ npm install
+$ npm run build
+```
+
+## Developed By
+
+Dmitry Kologrivko  - <dmitrykologrivko@gmail.com>
