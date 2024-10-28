@@ -13,7 +13,7 @@ export const NAV_ITEMS = [
   },
   {
     name: 'Коворкинги',
-    route: 'CoworkingsPage'
+    route: 'coworkings'
   },
 ];
 
