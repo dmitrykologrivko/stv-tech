@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
             element: <StartupsPage/>
           },
           {
-            path: 'CoworkingsPage',
+            path: 'coworkings',
             element: <CoworkingsPage/>,
             loader: () => dataManager.getCoworkings()
           },
