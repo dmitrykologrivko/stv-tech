@@ -1,7 +1,7 @@
 import NoContent from './NoContent.jsx';
 
 export default {
-  title: 'Components/NoContent',
+  title: 'Global/NoContent',
   component: NoContent
 }
 

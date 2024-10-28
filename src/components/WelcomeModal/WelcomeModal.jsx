@@ -1,5 +1,4 @@
-import Modal from '../Modal/Modal.jsx';
-import Button from '../Button/Button.jsx';
+import { Modal, Button } from '../ui';
 import useLocalStorage from '../../hooks/useLocalStorage.js';
 import smile from '../../assets/smile.svg';
 

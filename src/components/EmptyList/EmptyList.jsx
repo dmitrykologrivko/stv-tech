@@ -1,4 +1,4 @@
-import Button from '../Button/Button.jsx';
+import { Button } from '../ui';
 import emptyPage from '../../assets/empty-page.svg';
 
 function EmptyList({ onResetFilters }) {

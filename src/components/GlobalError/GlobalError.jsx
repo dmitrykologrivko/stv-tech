@@ -1,4 +1,4 @@
-import Button from '../Button/Button.jsx';
+import { Button } from '../ui';
 import codeBrackets from '../../assets/code-brackets.svg';
 
 function GlobalError({ error, description, buttonLabel, onClick }) {

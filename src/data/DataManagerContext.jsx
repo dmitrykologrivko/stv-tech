@@ -1,4 +1,4 @@
-import { createContext, useState, useContext } from 'react';
+import { createContext, useContext } from 'react';
 import { DataManager } from './DataManager.js';
 
 const DataManagerContext = createContext(null);

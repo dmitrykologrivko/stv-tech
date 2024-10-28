@@ -1,7 +1,7 @@
 import WelcomeModal from './WelcomeModal.jsx';
 
 export default {
-  title: 'Components/Modals/WelcomeModal',
+  title: 'Global/WelcomeModal',
   component: WelcomeModal,
 };
 

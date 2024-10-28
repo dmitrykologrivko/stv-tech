@@ -1,7 +1,7 @@
 import SearchInput from './SearchInput.jsx';
 
 export default {
-  title: 'Components/Inputs/SearchInput',
+  title: 'Global/SearchInput',
   component: SearchInput
 }
 
