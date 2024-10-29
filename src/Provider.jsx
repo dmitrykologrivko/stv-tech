@@ -1,12 +1,15 @@
 import { SpinnerProvider } from './components';
+import { ContentHeightProvider } from './hooks/available-height/ContentHeightContext.jsx';
 import { DataManagerProvider } from './data/DataManagerContext.jsx';
 
 function Provider({ children }) {
   return (
     <SpinnerProvider>
-      <DataManagerProvider>
-        {children}
-      </DataManagerProvider>
+      <ContentHeightProvider>
+        <DataManagerProvider>
+          {children}
+        </DataManagerProvider>
+      </ContentHeightProvider>
     </SpinnerProvider>
   );
 }

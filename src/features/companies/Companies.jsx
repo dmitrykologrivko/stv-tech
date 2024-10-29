@@ -1,15 +1,10 @@
-import { useMemo, useRef, useDeferredValue } from 'react';
-import useAvailableHeight from '../../hooks/useAvailableHeight.js';
+import { useMemo, useDeferredValue } from 'react';
 import { all } from '../../utils/preconditions.js';
 import { STAVROPOL_CENTER } from '../../data/consts.js';
 import CompaniesMap from './components/CompaniesMap.jsx';
 import CompaniesList from './components/CompaniesList.jsx';
 
 function Companies({ companies, searchParams, showMap, onResetFilters }) {
-  const mapRef = useRef();
-
-  const availableHeight = useAvailableHeight(mapRef);
-
   const deferredSearchParams = useDeferredValue(searchParams);
 
   const filteredCompanies = useMemo(() => {
@@ -36,11 +31,7 @@ function Companies({ companies, searchParams, showMap, onResetFilters }) {
   return (
     <>
       {showMap && (
-        <div ref={mapRef}
-             className={`'w-full rounded-lg overflow-hidden shadow'`}
-             style={{ height: availableHeight }}>
-          <CompaniesMap cityLocation={STAVROPOL_CENTER} companies={filteredCompanies}/>
-        </div>
+        <CompaniesMap cityLocation={STAVROPOL_CENTER} companies={filteredCompanies}/>
       )}
 
       {!showMap && (

@@ -1,9 +1,12 @@
 import { useState, useLayoutEffect } from 'react';
-import debounce from '../utils/debounce.js';
+import debounce from '../../utils/debounce.js';
+import { useContentHeightContext } from './ContentHeightContext.jsx';
 
 function useAvailableHeight(elementRef) {
   const DEBOUNCE_DELAY = 100;
   const [availableHeight, setAvailableHeight] = useState(0);
+
+  const { isContentHeightUpdated } = useContentHeightContext();
 
   useLayoutEffect(() => {
     const calculateAvailableHeight = () => {
@@ -19,7 +22,7 @@ function useAvailableHeight(elementRef) {
       window.removeEventListener('resize', debouncedWindowResizeHandler);
       debouncedWindowResizeHandler.cancel();
     };
-  }, [elementRef]);
+  }, [elementRef, isContentHeightUpdated]);
 
   return availableHeight;
 }

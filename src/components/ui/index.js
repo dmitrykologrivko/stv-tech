@@ -1,3 +1,4 @@
+export { default as Banner } from './Banner/Banner.jsx';
 export { default as Button } from './Button/Button.jsx';
 export { default as Card } from './Card/Card.jsx';
 export { default as CloseButton } from './CloseButton/CloseButton.jsx';
