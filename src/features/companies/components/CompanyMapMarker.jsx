@@ -9,7 +9,7 @@ function CompanyMapMarker({ feature, activePopupId, onClick, onCloseClick }) {
   };
 
   const popupContent = () => (
-    <div className='min-w-60 max-w-80'>
+    <div className='w-60'>
       <div className='flex'>
         <div className='flex-grow'>
           <div className='flex items-center'>
