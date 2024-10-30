@@ -15,7 +15,7 @@
   input[type="checkbox"] {
     @apply appearance-none w-4 h-4 border border-black rounded relative cursor-pointer;
 
-    @apply checked:bg-brand-primary checked:border-brand-500;
+    @apply checked:bg-brand-500 checked:border-brand-500;
 
     @apply checked:before:content-[''] checked:before:absolute checked:before:w-1.5 checked:before:h-2.5;
     @apply checked:before:border-t-0 checked:before:border-r-2 checked:before:border-b-2 checked:before:border-l-0;

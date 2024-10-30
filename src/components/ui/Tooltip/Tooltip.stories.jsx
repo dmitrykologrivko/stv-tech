@@ -8,7 +8,7 @@ export default {
 export const Default = () => (
   <div className="flex justify-center items-center h-screen">
     <Tooltip text="Это тултип!">
-      <div className="px-4 py-2 text-white bg-brand-primary">
+      <div className="px-4 py-2 text-white bg-brand-500">
         <span>Наведи на меня</span>
       </div>
     </Tooltip>

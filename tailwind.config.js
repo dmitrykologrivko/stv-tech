@@ -29,18 +29,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: globalColors,
-      backgroundColor: {
-        'brand-primary': globalColors.brand[500],
-        'brand-primary-hover': globalColors.brand[600],
-        'brand-primary-active': globalColors.brand[700],
-        'brand-primary-disabled': globalColors.brand[400],
-      },
-      textColor: {
-        'brand-onprimary': globalColors.brand[950],
-        'brand-onprimary-active': globalColors.brand[900],
-        'brand-onprimary-disabled': globalColors.brand[400],
-      },
+      colors: globalColors
     },
   },
   plugins: [],

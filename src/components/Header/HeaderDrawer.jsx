@@ -7,13 +7,13 @@ import telegramLogo from '../../assets/telegram-white.svg';
 function HeaderDrawer({ isOpen, toggleDrawer }) {
   return (
     <Drawer isOpen={isOpen} toggleDrawer={toggleDrawer}>
-      <div className='flex flex-col justify-between bg-brand-primary h-full'>
+      <div className='flex flex-col justify-between bg-brand-500 h-full'>
         <nav className='m-2 mt-4'>
-          <ul className='text-brand-onprimary font-bold flex flex-col'>
+          <ul className='text-brand-950 font-bold flex flex-col'>
             {NAV_ITEMS.map((item, index) => (
               <li key={index} onClick={toggleDrawer}>
                 <NavLink key={index} to={item.route}
-                         className={({ isActive }) => isActive ? 'text-brand-onprimary-active' : ''}>
+                         className={({ isActive }) => isActive ? 'text-brand-900' : ''}>
                   <HeaderNavItem>{item.name}</HeaderNavItem>
                 </NavLink>
               </li>
