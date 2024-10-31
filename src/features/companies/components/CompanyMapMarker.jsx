@@ -17,7 +17,7 @@ function CompanyMapMarker({ feature, activePopupId, onClick, onCloseClick }) {
             {feature.company?.flagship && <img src={starCircle} className="h-4 pl-1 inline-block" alt="Star"/>}
           </div>
           <div>{feature.company?.address}</div>
-          <div className='text-brand-700'>{feature.company?.category_title}</div>
+          <div className='text-primary-700'>{feature.company?.category_title}</div>
         </div>
         <CloseButton onClick={onCloseClick}/>
       </div>

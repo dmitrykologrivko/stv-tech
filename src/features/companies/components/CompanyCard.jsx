@@ -15,7 +15,7 @@ function CompanyCard(props) {
             )}
           </div>
           <div>{props.address}</div>
-          <div className='text-sm text-brand-700'>{props.category}</div>
+          <div className='text-sm text-primary-700'>{props.category}</div>
         </div>
       </div>
       <div className='pt-2'>{props.description}</div>

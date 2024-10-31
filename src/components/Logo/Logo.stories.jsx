@@ -6,7 +6,7 @@ export default {
 }
 
 export const Default = () => (
-  <div className='p-4 bg-brand-500'>
+  <div className='p-4 bg-primary-500'>
     <Logo/>
   </div>
 );

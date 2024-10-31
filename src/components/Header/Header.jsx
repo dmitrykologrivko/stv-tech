@@ -15,7 +15,7 @@ function Header() {
   };
 
   return (
-    <header className='flex items-center justify-between p-2 bg-brand-500 lg:justify-normal lg:p-4'>
+    <header className='flex items-center justify-between p-2 bg-primary-500 lg:justify-normal lg:p-4'>
       <Link to={'/'}>
         <Logo />
       </Link>

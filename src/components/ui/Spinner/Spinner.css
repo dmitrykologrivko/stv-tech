@@ -1,5 +1,5 @@
 .spinner-mixin {
-  background: linear-gradient(90deg, theme('colors.brand.500') calc(50% + 0.5ch), #000 0) right/calc(200% + 1ch) 100%;
+  background: linear-gradient(90deg, theme('colors.primary.500') calc(50% + 0.5ch), #000 0) right/calc(200% + 1ch) 100%;
   @apply bg-clip-text;
   animation: spinner-loading 2s infinite linear;
 }

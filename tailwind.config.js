@@ -2,7 +2,7 @@
  * Generated using https://uicolors.app/create
  */
 const globalColors = {
-  brand: {
+  primary: {
     '50': '#fefee8',
     '100': '#fffec2',
     '200': '#fffa87',
@@ -15,6 +15,7 @@ const globalColors = {
     '900': '#734610',
     '950': '#432405',
   },
+  secondary: {},
   neutral: {},
   error: {},
   success: {},
