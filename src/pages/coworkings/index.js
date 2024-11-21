@@ -1,1 +1,1 @@
-export { default as CoworkingsPage } from './CoworkingsPage.jsx';
+export { default as CoworkingsPage } from './components/CoworkingsPage.jsx';

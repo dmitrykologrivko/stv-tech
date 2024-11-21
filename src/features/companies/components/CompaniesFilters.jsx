@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import FiltersModal from '../../components/ui/FiltersModal/FiltersModal.jsx';
-import { COMPANY_CATEGORIES } from '../../data/consts.js';
+import FiltersModal from '../../../components/ui/FiltersModal/FiltersModal.jsx';
+import { COMPANY_CATEGORIES } from '../../../data/consts.js';
 
 function CompaniesFilters({ initialFiltersState, onCloseModal, onApplyFilters }) {
   const [categories, setCategories] = useState(() => {

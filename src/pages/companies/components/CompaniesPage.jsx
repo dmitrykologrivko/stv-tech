@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import useTitle from '../../hooks/useTitle.js';
-import { useContentHeightContext } from '../../hooks/available-height/ContentHeightContext.jsx';
-import { SearchInput, IconButton } from '../../components';
-import { Companies, CompaniesFilters } from '../../features/companies';
-import filterIcon from '../../assets/filter.svg';
-import listIcon from '../../assets/list.svg';
-import mapIcon from '../../assets/map.svg';
+import useTitle from '../../../hooks/useTitle.js';
+import { useContentHeightContext } from '../../../hooks/available-height/ContentHeightContext.jsx';
+import { SearchInput, IconButton } from '../../../components/index.js';
+import { Companies, CompaniesFilters } from '../../../features/companies/index.js';
+import filterIcon from '../../../assets/filter.svg';
+import listIcon from '../../../assets/list.svg';
+import mapIcon from '../../../assets/map.svg';
 
 function CompaniesPage() {
   useTitle('IT-Карта Ставрополя');

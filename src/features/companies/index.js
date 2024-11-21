@@ -1,2 +1,2 @@
-export { default as Companies } from './Companies.jsx';
-export { default as CompaniesFilters } from './CompaniesFilters.jsx';
+export { default as Companies } from './components/Companies.jsx';
+export { default as CompaniesFilters } from './components/CompaniesFilters.jsx';

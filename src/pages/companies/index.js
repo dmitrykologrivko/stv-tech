@@ -1,2 +1,2 @@
-export { default as CompaniesPage } from './CompaniesPage.jsx';
-export * from './loaders.js';
+export { default as CompaniesPage } from './components/CompaniesPage.jsx';
+export * from './api/loaders.js';

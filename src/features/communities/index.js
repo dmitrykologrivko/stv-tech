@@ -1,1 +1,1 @@
-export { default as CommunitiesList } from './CommunitiesList.jsx';
+export { default as CommunitiesList } from './components/CommunitiesList.jsx';

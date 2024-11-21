@@ -1,5 +1,5 @@
-import telegramLogo from '../../assets/telegram-black.svg';
-import vkLogo from '../../assets/vk-black.svg';
+import telegramLogo from '../../../assets/telegram-black.svg';
+import vkLogo from '../../../assets/vk-black.svg';
 
 function CommunitiesList({ communities }) {
   function getSocialNetworkIconByType(type) {

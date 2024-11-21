@@ -1,4 +1,4 @@
-import CoworkingCard from './components/CoworkingCard.jsx';
+import CoworkingCard from './CoworkingCard.jsx';
 
 function CoworkingsList({ coworkings }) {
   return (

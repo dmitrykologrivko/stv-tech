@@ -1,1 +1,1 @@
-export { default as CommunitiesPage } from './CommunitiesPage.jsx';
+export { default as CommunitiesPage } from './components/CommunitiesPage.jsx';

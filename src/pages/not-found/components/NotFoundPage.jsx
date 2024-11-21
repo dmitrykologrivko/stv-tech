@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import GlobalError from '../../components/GlobalError/GlobalError.jsx';
+import GlobalError from '../../../components/GlobalError/GlobalError.jsx';
 
 function NotFoundPage() {
   const navigate = useNavigate();

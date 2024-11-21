@@ -1,8 +1,8 @@
 import { useMemo, useDeferredValue } from 'react';
-import { all } from '../../utils/preconditions.js';
-import { STAVROPOL_CENTER } from '../../data/consts.js';
-import CompaniesMap from './components/CompaniesMap.jsx';
-import CompaniesList from './components/CompaniesList.jsx';
+import { all } from '../../../utils/preconditions.js';
+import { STAVROPOL_CENTER } from '../../../data/consts.js';
+import CompaniesMap from './CompaniesMap.jsx';
+import CompaniesList from './CompaniesList.jsx';
 
 function Companies({ companies, searchParams, showMap, onResetFilters }) {
   const deferredSearchParams = useDeferredValue(searchParams);

@@ -1,7 +1,7 @@
 import { useLoaderData } from 'react-router-dom';
-import useTitle from '../../hooks/useTitle.js';
-import { CommunitiesList } from '../../features/communities';
-import { NoContent } from '../../components';
+import useTitle from '../../../hooks/useTitle.js';
+import { CommunitiesList } from '../../../features/communities/index.js';
+import { NoContent } from '../../../components/index.js';
 
 function CommunitiesPage() {
   useTitle('Сообщества Ставрополя');
