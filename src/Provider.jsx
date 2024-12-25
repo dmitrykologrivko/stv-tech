@@ -2,8 +2,9 @@ import { RouterProvider } from 'react-router-dom';
 import { SpinnerProvider, Spinner } from './components';
 import { ContentHeightProvider } from './hooks/available-height/ContentHeightContext.jsx';
 import { DataManagerProvider } from './data/DataManagerContext.jsx';
+import { router } from './Router.jsx';
 
-function Provider({ router }) {
+function Provider() {
   return (
     <SpinnerProvider>
       <ContentHeightProvider>
