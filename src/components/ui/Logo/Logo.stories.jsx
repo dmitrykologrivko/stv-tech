@@ -1,7 +1,7 @@
 import Logo from './Logo.jsx';
 
 export default {
-  title: 'Global/Logo',
+  title: 'UI/Logo',
   component: Logo
 }
 

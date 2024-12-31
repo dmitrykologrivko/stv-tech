@@ -1,5 +1,5 @@
-import { Button } from '../ui';
-import emptyPage from '../../assets/empty-page.svg';
+import { Button } from '../index.js';
+import emptyPage from '../../../assets/empty-page.svg';
 
 function EmptyList({ onResetFilters }) {
   return (

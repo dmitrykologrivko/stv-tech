@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import useDebounce from '../../hooks/useDebounce.js';
+import useDebounce from '../../../hooks/useDebounce.js';
 
 function SearchInput({ value = '', onChange, placeholder }) {
   const INPUT_DEBOUNCE_DELAY = 100;

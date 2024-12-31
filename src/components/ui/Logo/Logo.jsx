@@ -1,4 +1,4 @@
-import code from '../../assets/code.svg';
+import code from '../../../assets/code.svg';
 
 function Logo() {
   return (

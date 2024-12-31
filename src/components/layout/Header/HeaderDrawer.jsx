@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
-import { Drawer } from '../ui';
+import { Drawer } from '../../ui/index.js';
 import HeaderNavItem from './HeaderNavItem.jsx';
 import { NAV_ITEMS, TELEGRAM_LINK } from './constants.js';
-import telegramLogo from '../../assets/telegram-white.svg';
+import telegramLogo from '../../../assets/telegram-white.svg';
 
 function HeaderDrawer({ isOpen, toggleDrawer }) {
   return (

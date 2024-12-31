@@ -1,6 +1,6 @@
-import { Banner, CloseButton } from '../ui';
-import useLocalStorage from '../../hooks/useLocalStorage.js';
-import { useContentHeightContext } from '../../hooks/available-height/ContentHeightContext.jsx';
+import { Banner, CloseButton } from '../../ui/index.js';
+import useLocalStorage from '../../../hooks/useLocalStorage.js';
+import { useContentHeightContext } from '../../../hooks/available-height/ContentHeightContext.jsx';
 
 function WelcomeBanner() {
   const [isFirstSeen, setFirstSeen] = useLocalStorage('is_first_seen', true);

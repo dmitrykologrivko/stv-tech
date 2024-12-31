@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../Logo/Logo.jsx';
+import Logo from '../../ui/Logo/Logo.jsx';
 import HeaderNav from './HeaderNav.jsx';
 import HeaderDrawer from './HeaderDrawer.jsx';
 import { TELEGRAM_LINK } from './constants.js';
-import menu from '../../assets/menu.svg';
-import telegramLogo from '../../assets/telegram-white.svg';
+import menu from '../../../assets/menu.svg';
+import telegramLogo from '../../../assets/telegram-white.svg';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

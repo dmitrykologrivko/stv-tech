@@ -1,7 +1,7 @@
 import EmptyList from './EmptyList.jsx';
 
 export default {
-  title: 'Global/EmptyList',
+  title: 'UI/EmptyList',
   component: EmptyList
 }
 

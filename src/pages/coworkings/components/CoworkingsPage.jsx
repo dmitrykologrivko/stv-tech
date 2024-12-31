@@ -1,7 +1,7 @@
 import { useLoaderData } from 'react-router-dom';
 import useTitle from '../../../hooks/useTitle.js';
 import CoworkingsList from '../../../features/coworkings/components/CoworkingsList.jsx';
-import NoContent from '../../../components/NoContent/NoContent.jsx';
+import NoContent from '../../../components/ui/NoContent/NoContent.jsx';
 
 function CoworkingsPage() {
   useTitle('Коворгинги Ставрополя');

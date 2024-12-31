@@ -1,7 +1,7 @@
 import GlobalError from './GlobalError.jsx';
 
 export default {
-  title: 'Global/GlobalError',
+  title: 'UI/GlobalError',
   component: GlobalError
 }
 

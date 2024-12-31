@@ -1,5 +1,5 @@
-import { Button } from '../ui';
-import codeBrackets from '../../assets/code-brackets.svg';
+import { Button } from '../index.js';
+import codeBrackets from '../../../assets/code-brackets.svg';
 
 function GlobalError({ error, description, buttonLabel, onClick }) {
   return (

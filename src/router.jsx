@@ -1,19 +1,19 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from './App.jsx';
-import Boundary from './Boundary.jsx';
+import { MainLayout } from './components';
 import { NotFoundPage } from './pages/not-found';
 import { CompaniesPage, loadCompanies } from './pages/companies';
 import { CommunitiesPage } from './pages/communities';
 import { StartupsPage } from './pages/startups';
 import { CoworkingsPage } from './pages/coworkings';
 import { DataManager } from './data/DataManager.js';
+import Boundary from './Boundary.jsx';
 
 const dataManager = new DataManager();
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <App/>,
+    element: <MainLayout/>,
     errorElement: <Boundary/>,
     children: [
       {
